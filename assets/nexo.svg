@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="101px" height="87px" viewBox="0 0 101 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-nexo-symbol-light</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo-nexo-symbol-light" transform="translate(0.500000, 0.000000)" fill-rule="nonzero">
+            <path d="M25.8578199,0.558656603 L74.6205605,28.730911 L74.6205605,57.461822 L0,14.3654555 L23.9424258,0.558656603 C24.5350508,0.216504407 25.2651949,0.216504407 25.8578199,0.558656603" id="Shape" fill="#D9EEFF"></path>
+            <polygon id="Shape" fill="#BBDDFF" points="74.6205605 0 49.7603417 14.3654555 74.6205605 28.730911"></polygon>
+            <path d="M74.6205605,0 L98.5629863,13.8067989 C99.1609629,14.1520039 99.5268641,14.792331 99.5206834,15.4827687 L99.5207605,71.8272775 L74.6205605,57.461822 L74.6205605,0 Z" id="Shape" fill="#A0CCFF"></path>
+            <path d="M99.5206834,71.8272775 L75.5782575,85.6340764 C74.9835079,85.9682053 74.2576131,85.9682053 73.6628635,85.6340764 L24.8602188,57.461822 L24.8602188,28.691007 L99.5206834,71.8272775 Z" id="Shape" fill="#BBDDFF"></path>
+            <path d="M-7.70811436e-05,14.3654555 L-3.13483506e-16,70.7099643 C-0.00618067726,71.400402 0.359720501,72.0407291 0.957697033,72.3859341 L24.9001229,86.192733 L24.9001229,28.691007 L-7.70811436e-05,14.3654555 Z" id="Shape" fill="#FFFFFF"></path>
+            <polygon id="Shape" fill="#D9EEFF" points="24.9001229 86.192733 49.7603417 71.8272775 24.9001229 57.461822"></polygon>
+        </g>
+    </g>
+</svg>

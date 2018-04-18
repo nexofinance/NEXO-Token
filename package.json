@@ -1,0 +1,35 @@
+{
+  "name": "NEXO-solidity-smart-contracts",
+  "version": "1.0.0",
+  "description": "Token contracts for NEXO",
+  "author": "Zerion inbox@zerion.io",
+  "scripts": {
+    "test": "scripts/test.sh",
+    "console": "truffle console",
+    "compile": "truffle compile"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeriontech/nexo-token-smart-contracts.git"
+  },
+  "engines": {
+    "yarn": "1.5.1"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "babel-register": "^6.23.0",
+    "chai": "4.0.2",
+    "chai-as-promised": "7.0.0",
+    "chai-bignumber": "2.0.0",
+    "ganache-cli": "6.1.0",
+    "solc": "0.4.21",
+    "solidity-coverage": "0.4.3",
+    "solium": "1.1.2",
+    "truffle": "4.1.5"
+  }
+}
