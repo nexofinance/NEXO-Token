@@ -132,18 +132,7 @@ contract NexoToken is Token {
 		public
 		onlyOwner
 	{
-		uint256 unlockedTokens = _calculateUnlockedTokens(
-			overdraftCliff,
-			overdraftPeriodLength,
-			overdraftPeriodAmount,
-			overdraftPeriodsNumber,
-			overdraftUnvested
-		);
-
-		uint256 spentTokens = sub(overdraftTotal, balanceOf(overdraftAllocation));
-
-		allowed[overdraftAllocation][msg.sender] = sub(unlockedTokens, spentTokens);
-
+		allowed[overdraftAllocation][msg.sender] = allowance(overdraftAllocation, msg.sender);
 		require(transferFrom(overdraftAllocation, _to, _amountWithDecimals));
 	}
 
@@ -151,18 +140,7 @@ contract NexoToken is Token {
 		public
 		onlyOwner 
 	{
-		uint256 unlockedTokens = _calculateUnlockedTokens(
-			teamCliff,
-			teamPeriodLength,
-			teamPeriodAmount,
-			teamPeriodsNumber,
-			teamUnvested
-		);
-
-		uint256 spentTokens = sub(teamTotal, balanceOf(teamAllocation));
-
-		allowed[teamAllocation][msg.sender] = sub(unlockedTokens, spentTokens);
-
+		allowed[teamAllocation][msg.sender] = allowance(teamAllocation, msg.sender);
 		require(transferFrom(teamAllocation, _to, _amountWithDecimals));
 	}
 
@@ -170,18 +148,7 @@ contract NexoToken is Token {
 		public
 		onlyOwner 
 	{
-		uint256 unlockedTokens = _calculateUnlockedTokens(
-			communityCliff,
-			communityPeriodLength,
-			communityPeriodAmount,
-			communityPeriodsNumber,
-			communityUnvested
-		);
-
-		uint256 spentTokens = sub(communityTotal, balanceOf(communityAllocation));
-
-		allowed[communityAllocation][msg.sender] = sub(unlockedTokens, spentTokens);
-
+		allowed[communityAllocation][msg.sender] = allowance(communityAllocation, msg.sender);
 		require(transferFrom(communityAllocation, _to, _amountWithDecimals));
 	}
 
@@ -189,18 +156,7 @@ contract NexoToken is Token {
 		public
 		onlyOwner 
 	{
-		uint256 unlockedTokens = _calculateUnlockedTokens(
-			advisersCliff,
-			advisersPeriodLength,
-			advisersPeriodAmount,
-			advisersPeriodsNumber,
-			advisersUnvested
-		);
-
-		uint256 spentTokens = sub(advisersTotal, balanceOf(advisersAllocation));
-
-		allowed[advisersAllocation][msg.sender] = sub(unlockedTokens, spentTokens);
-
+		allowed[advisersAllocation][msg.sender] = allowance(advisersAllocation, msg.sender);
 		require(transferFrom(advisersAllocation, _to, _amountWithDecimals));
 	}
 
