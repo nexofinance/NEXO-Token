@@ -1,4 +1,4 @@
-pragma solidity 0.4.21;
+pragma solidity 0.4.23;
 
 //
 // This source file is part of the nexo-contracts open source project

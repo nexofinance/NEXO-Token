@@ -33,7 +33,7 @@ For more information about Truffle visit [http://truffleframework.com/docs/](htt
 
 ## Contracts on Etherscan
 Token address:
- [???](https://etherscan.io/)
+ [0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206](https://etherscan.io/token/0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206)
 
 ## Authors
 <a href="https://zerion.io?utm_source=nexo_contracts"><img width="360" alt="Powered by Zerion" src="./assets/zerion.png">
